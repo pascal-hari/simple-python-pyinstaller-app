@@ -8,7 +8,7 @@ pipeline {
                 }
             }
             steps {
-                bat 'pwd'
+                sh 'pwd'
             }
         }
     }
