@@ -8,7 +8,7 @@ pipeline {
                 }
             }
             steps {
-                sudo sh 'pwd'
+                sh 'pwd'
             }
         }
     }
